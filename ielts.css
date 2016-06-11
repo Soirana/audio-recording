@@ -1,0 +1,92 @@
+body{background: url("books.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+
+}
+a{	margin: 0;
+	font-size: 2.5vh;
+	text-decoration: none;
+	color: black;
+	background-color: rgba(180,60,210, 0.7);
+	margin-left: 2vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	appearance: button;
+    -moz-appearance: button;
+    -webkit-appearance: button;
+}
+.buttoner{
+	margin: auto;
+	text-align: center;
+}
+button{
+	font-size: 3vh;
+}
+input{
+	font-size: 3vh;
+}
+p{	
+	margin:0;
+}
+span{
+	background-color: rgba(124,240,0, 0.7);
+	font-size: 2.5vh;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+.red{
+	background-color: red;
+}
+#wrap{
+		white-space: nowrap;
+
+}
+.half{
+	white-space: normal;
+	width: 48.8vw;
+	font-size: 2.5vh;
+	padding: 0.2vw;
+	margin: 0px;
+	border :0px;
+
+}
+.half a{
+	text-decoration: none;
+	color: black;
+	background-color: rgba(220,200,220, 0.9);
+	margin: 0px;
+
+}
+.left{
+	float: left;
+	background-color: rgb(250,180,250);
+
+}
+blockquote{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#helper, #gen{
+	display: none;
+}
+#gen{
+	background-color: rgb(220,250,220);
+}
+.halfer{
+	width: 49%;
+	background-color: rgb(250,220,220);
+	margin-right: 1%;
+
+}
+.out{
+	width: 100%;
+	display: inline-flex;
+}
+.lef {
+	float: left;
+	
+}
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<script src="https://cdn.WebRTC-Experiment.com/MediaStreamRecorder.js"></script>
+    <script src="https://cdn.WebRTC-Experiment.com/gumadapter.js"></script>
+	<link rel="stylesheet" type="text/css" href="ielts.css">
+ 	<script src="arr.js"></script>
+	<script src="ielts.js"></script>
+	
+</head>
+<body>
+<div class = "buttoner">
+
+<button id="start-recording">Start</button>
+<button id="stop-recording" class= 'red' disabled>Stop</button>
+<button id="pause-recording" disabled>Pause</button>
+<button id="resume-recording" disabled>Resume</button>
+<button id="cancel" disabled="true">Cancel</button>
+<br/>
+<input id = 'inSearch' type="text" placeholder="Part of topic..."></input>
+<button id = 'search'>Search</button>
+<br/>
+<button id = 'timer'>0:00</button>
+</div>
+
+<div id= "wrap">
+	<p class = 'half left' id ='left'>This page is supposed to help with IELTS speaking part 2. Just click 'Start', to generate random topic and talk into the microphone.
+	<br/> Afterwards you can listen to yourself or give resulting file to other people to evaluate.
+	<br/>
+	Since all recording happens on your side, download won't cause extra bandwith use.
+	Due to using <a href="https://webrtc.org/"> WebRTC</a> and <a href="https://github.com/streamproc/MediaStreamRecorder">MediaStreamRecorder.js </a> scripts it won't work on IE.<br/>
+	WebRTC is not compatible with android browsers, but hopefully I will rewrite javascript to eleminate it in the future.
+	</p>
+
+<textarea class ='half right' id = 'right' placeholder= 'place for notes' disabled="true"></textarea>
+</div>
+<div hidden="true">
+<button id= 'switch'>Switch to major topics</button>
+<button id= 'helper'  disabled="true">Show tips.</button>
+</div>
+
+<div id = "audios"></div>
+<button id = "genShow">Generic tips</button>
+<div id = 'gen'>
+	<p>Anything below (or on the right-side) is just my two eurocents.<br/><br/>
+	Many books dedicated to IELTS speaking are essentialy just vocabulary lists. The one I found to be useful was Mat Clark's "IETLS speaking" (2007). If you don't believe in paying other people for their intelectual work, you can search on vk.com (russian version of Facebook). I'm pretty sure they do have illegal version of it.<br/><br/>
+	While book gives some fanatastic advice on part I and part III of speaking, it has some weak points. Firstly, it overloads on redundant language (book targets chinese audience, so likely that is intentional to overcome Chinese specifics). Secondly, it recommends essentialy to recite most of cue card, which does not lead to high scores in my opinion.<br/><br/>
+	Whatever you gain in length, will be more than lost in fluency and having less time to demonstrate vocabulary, fluency, etc.<br/><br/>
+	However, some other ideas (like heavy reuse of content in related topics) are rather briliant. Hopefully this page will get section about heavily reusable topics later.<br/><br/>
+	I would also suggest using few cheap ways to get more different tenses into topic, as this is potential problem.<br/>Few examples:<br/>
+	You could mention, when something happened for the first time, to add past continuous tense.<br/> We met/I first saw the movie/I discovered the place when I was living in/studying at...
+	<br/> 
+	Easy ways to use future tenses:<br/>
+	I will always remeber how the place/person/event looked/behaved/etc...
+	I will never forget what he did/the impression movie left...<br/>
+	Use 'since' to get some perfect tenses:<br/>
+	I've known him since the school days./The region has changed a lot since I left for the capitol.<br/>
+	Using some connective phrases is important, and the easiest way is probably to make a general case and show an exception, or oppose two different things.<br/>
+	Ovearll, the place is rather quiet, however it can be quite noisy during the Sundays. (Because  people come for picnics.)<br/>
+	On the surface, the are seems to be the safe, although if you know some local stories...<br/>
+	You can also squeeze in some conditionals easily...<br/>
+	If could afford, I would fly to... If I had a chance, I would like to get author's autograph on the book...<br/><br/>
+	Overall you should not to force these too much since your examiner will feel it.
+	</p>
+	
+	
+	<div  class = "out">
+	<p class = "halfer lef">
+		 <b>Talk about a place of natural beauty, that you have visited.</b><br/>
+You should say:<br/>
+    <b>where the place is located<br/></b>
+    <b>what kind of place it is</b><br/>
+    <b>what you did there.</b><br/>
+<b>And explain why it is a place worth visiting.</b> <br/><br/><br/>
+Well,anything related to nature, park (river, water, sculpture) easily gets into the same topic. You can easily move some monument or river into the park you know anyway.<br/>
+I'm pretty sure you can prepare better than sample on the right.<br/>
+In general, couple sentences about place in general and few about every subquestion combined with few extra details should get you through.
+	</p> 
+	
+	
+	<p class = "halfer">
+		Well, I would like to talk about "Vingis" park in my hometown. In  English "vingis" means a meander and I think,  it's a very apropriate name, because the park is surrounded by the river Neris on three sides.<br/><br/>
+		The place is in the South of the city near the industrial areas, luckily the river serves as a barrier from noise and pollution. Overall, the park is quite quiet place and serves as a natural habitat for some rare bird species. However, in the western part there is a stadium which often serves as a venue for concerts, so during the wekends it can be rather noisy.
+		<br/>
+		(<i>I would take music over birds any given day, but it's not something I would say to examiner...</i>)
+		<br/>
+		The first time I went there for the concert, then I was studying at university, but I feel in love with the place, because it's so hard to find a peaceful place near the center of the city.<br/><br/>
+		It is worth seeing the place due to the nature and very enjoyable walk along the river. It also has an important monument in from of distaff dedicated to prominent local people.<br/>
+		(<i>It's an ugly 4 meter pole of concrete, but I would not mention that either.</i>)
+		Distaffs actually are.... (talk something about that untill time runs out.)
+	</p>  
+	
+	</div>
+	</div>
+
+
+
+
+
+</body>
+</html>
